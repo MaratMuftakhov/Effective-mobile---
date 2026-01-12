@@ -24,3 +24,6 @@
 ## Подзадание 3
 ### Уточнить про цены на товары - фиксированные или динамические
 ### Что происходит при смены статуса товара на недоступный, когда он уже добавлен в корзину
+# Задание 2
+## GET /api/v1/shops
+## { "items": [ { "id": "shop_001", "title": "Metro", "delivery_time": { "source": "partner", "from_time": 21:00, "to_time": 23:00,}, "image_url": "https://cdn.petrushka.ru/partners/metro.png", "action": { "type": "external_link", "url": "https://metro.ru" } } ] } 
